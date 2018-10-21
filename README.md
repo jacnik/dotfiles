@@ -1,3 +1,3 @@
-⋅⋅* dotfiles
-⋅⋅* configs
-⋅⋅* dev setup
+* dotfiles
+* configs
+* dev setup
