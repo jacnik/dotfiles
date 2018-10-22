@@ -15,3 +15,5 @@ source_file () {
 
 source_file ".vimrc"
 source_file ".gitconfig"
+source_file ".oh-my-zsh"
+source_file ".zshrc"
