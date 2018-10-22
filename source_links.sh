@@ -1,11 +1,17 @@
-# .vimrc
+#!/bin/bash
 
-file=".vimrc"
-destination="${HOME}/${file}"
+source_file () {
+    local filename=$1
 
-if [ ! \( -e "${destination}" \) ]
-then
-     ln -s ${PWD}/${file} ${destination}
-else
-     echo "file ${destination} already exists."
-fi
+    destination="${HOME}/${filename}"
+
+    if [ ! \( -e "${destination}" \) ]
+    then
+        ln -s ${PWD}/${filename} ${destination}
+    else
+        echo "file ${destination} already exists."
+    fi
+}
+
+source_file ".vimrc"
+source_file ".gitconfig"
