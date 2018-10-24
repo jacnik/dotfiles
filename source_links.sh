@@ -1,3 +1,13 @@
+# install necessary software
+sudo apt-get update
+sudo apt-get install && \
+	git 
+	curl
+	vim
+	zsh
+	
+
+
 #!/bin/bash
 
 source_file () {
